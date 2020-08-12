@@ -7,12 +7,12 @@ class Author
   end
   
   def add_post(posts)
-    song.artist = self
+    posts.author = self
   end
   
   def add_post_by_title(post_title)
     posts = Post.new(post_title)
-    song.artist = self
+    posts.author = self
   end 
   
   def self.song_count
