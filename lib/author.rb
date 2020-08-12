@@ -19,7 +19,7 @@ class Author
     Post.all.length
   end 
   
-  def songs
+  def posts
     Post.all
   end
 end
