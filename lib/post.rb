@@ -3,12 +3,12 @@ class Post
   
   @@all = []
   
-  def initialize(name)
-    @name = name
+  def initialize(title)
+    @title = title
     @@all << self 
   end
   
-  def artist_name 
+  def author_name 
     if self.artist
       self.artist.name
     else 
