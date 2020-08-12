@@ -3,15 +3,15 @@ class Author
   
   def initialize(name)
     @name = name
-    @post = []
+    @posts = []
   end
   
   def add_post(posts)
     song.artist = self
   end
   
-  def add_song_by_name(name)
-    posts = Post.new(name)
+  def add_post_by_title(post_title)
+    posts = Post.new(post_title)
     song.artist = self
   end 
   
